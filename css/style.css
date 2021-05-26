@@ -1,0 +1,18 @@
+pre {
+    white-space: pre-line;
+}
+
+.title {
+    text-transform: capitalize;
+}
+
+.columns {
+    column-gap: 20px;
+    column-count: 2;
+}
+
+@media (max-width: 576px) {
+    .columns {
+        column-count: 1;
+    }
+}
